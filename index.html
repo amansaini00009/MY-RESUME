@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aman.Resume</title>
+    <link rel="shortcut icon" href="icon.jpg" >
+   <link rel="stylesheet" href="2nd.css">
+<script src="2nd.js"></script>
+</head>
+<body>
+    <div class="bar" style="position:fixed;">
+
+        <h1>MY RESUME</h1>
+        <div class="links">
+            <a href="#about">About</a>
+            <a href="#skill">Skill</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+            <a href="#Media">Media</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="header" style="display: flex; flex-direction: column;">
+            
+          <div> <h1>Aman Saini</h1>
+            <p>Web Developer
+                 | Designer </p>
+        </div> 
+            <img src="aman photo.jpg" alt="My Dp">
+    
+          
+        </div>
+        <div class="section" id="about">
+            <h2>About Me</h2>
+           <h4> <p>A passionate web developer with a knack for creating visually appealing and 
+                functional websites. Adept in modern web technologies and eager to contribute to
+                 innovative projects.</p></h4>
+        </div>
+        <div class="section" id="skill">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>UI Design</span>
+                <span>Video Editor</span>
+                <span>Photoshop</span>
+            </div>
+        </div>
+        <div class="section" id="education">
+          <h2>Education</h2>
+      
+          <!-- 10th Standard Section -->
+          <h3><strong>Government Model Sanskriti Sen Sec School</strong></h3>
+          <h4>10th Standard</h4>
+          <h5>Percentage: 60% - 2019-2020</h5>
+          <p>Click the button below to download the PDF file:</p>
+          <button class="download-button" onclick="download10thPDF()">Download 10th PDF</button>
+      
+          <script>
+            function download10thPDF() {
+              const link = document.createElement('a');
+              link.href = '10th.pdf'; // Path to your PDF file
+              link.download = '10th.pdf'; // Default download name
+              link.click();
+            }
+          </script>
+      
+          <!-- 12th Standard Section -->
+          <h3><strong>Government Model Sanskriti Sen Sec School</strong></h3>
+          <h4>12th Standard</h4>
+          <h5>Percentage: 70% - 2021-2022</h5>
+          <p>Click the button below to download the PDF file:</p>
+          <button class="download-button" onclick="download12thPDF()">Download 12th PDF</button>
+      
+          <script>
+            function download12thPDF() {
+              const link = document.createElement('a');
+              link.href = '12th.pdf'; // Path to your PDF file
+              link.download = '12th.pdf'; // Default download name
+              link.click();
+            }
+          </script>
+      
+          <!-- Bachelor of Science Section -->
+          <h3><strong>Bachelor of Science in Computer Science</strong></h3>
+          <p>University of Tech - 2023-2026</p>
+      </div>
+      
+       
+        <div class="section" id="contact">
+            <h2>Contact</h2>
+            <p>Email: amanmgh09@gmail.com</p>
+            <p>Phone: 91+9896189201</p>
+            <p>Address:- Jaipur, Rajasthan</p>
+        </div>
+        <div class="Social" id="Media">
+            <h2>Social Media Account</h2>
+            <a href="https://www.youtube.com/@amansainivlogs0009" target="_blank"><img src="yt.png" alt="yt"style="width:42px;height:42px;padding: 30px;"></a>
+            <a href="https://www.linkedin.com/in/aman-saini-112847344/" target="_blank"><img src="linkedin.png" alt="linkedin"style="width:42px;height:42px;padding: 30px;"></a>
+            <a href="https://www.instagram.com/aman_edtion/" target="_blank"><img src="insta.jpg" alt="instagram"style="width:42px;height:42px;padding: 30px;;"></a>
+            
+            
+        </div>
+        <footer>
+            &copy; 2025 Aman Saini. All Rights Reserved.
+        </footer>
+    </div>
+</body>
+</html>
